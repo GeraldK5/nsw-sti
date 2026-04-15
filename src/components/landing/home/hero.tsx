@@ -23,7 +23,7 @@ export default function HeroSection({ nsw }: HeroSectionProps) {
   const latest = getLatestNSW(nsw);
   if (!latest) return null;
 
-  const { year, cover, location, startDate, endDate, mainContent, callForApplications } = latest;
+  const { year, cover, location, startDate, endDate, description, callForApplications } = latest;
   const dateRange = formatDateRange(startDate, endDate);
 
   return (
@@ -102,9 +102,9 @@ export default function HeroSection({ nsw }: HeroSectionProps) {
             </div>
 
             {/* Body */}
-            {mainContent && (
+            {description && (
               <p className="text-muted-foreground text-base leading-relaxed max-w-md">
-                {mainContent}
+                {description}
               </p>
             )}
 

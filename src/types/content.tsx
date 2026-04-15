@@ -20,16 +20,22 @@ export interface ScienceEvent {
   updatedAt: string;
 }
 
+export interface ProgrammeDay {
+  day: string;
+  content: string;
+}
 
 export interface NationalScienceWeek {
   id: string;
   year: number;
+  description?: string;
   mainContent?: string;
   cover?: MediaItem;   // main image or video
   location?: string;
   startDate: string;
   endDate: string;
   callForApplications: boolean;
+  programme?: ProgrammeDay[];
   createdAt: string;
   updatedAt: string;
 }
