@@ -1,13 +1,12 @@
 @import 'tailwindcss';
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-@plugin 'tailwindcss-animate';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   /* Gradient colors */
-  --color-background: #F2F2F2;
+  --color-background: #fffcf8;
   --color-primary: #1c8e7f;
   --color-teal: #1c8e7f;
   --color-secondary: #2A3950;
@@ -62,6 +61,7 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -77,10 +77,21 @@ html {
   /* Firefox */
 }
 
-.ping-fast  { animation-duration: 0.6s; }
-.ping-medium-fast { animation-duration: 0.9s; }
-.ping-medium { animation-duration: 1.4s; }
-.ping-slow  { animation-duration: 2s; }
+.ping-fast {
+  animation-duration: 0.6s;
+}
+
+.ping-medium-fast {
+  animation-duration: 0.9s;
+}
+
+.ping-medium {
+  animation-duration: 1.4s;
+}
+
+.ping-slow {
+  animation-duration: 2s;
+}
 
 :root {
   --sidebar: oklch(0.985 0 0);
@@ -97,9 +108,9 @@ html {
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: #1c8e7f;
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: #2A3950;
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
@@ -132,9 +143,9 @@ html {
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
+  --primary: #4db3a8;
+  --primary-foreground: oklch(0.145 0 0);
+  --secondary: #2A3950;
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
@@ -198,9 +209,11 @@ html {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }

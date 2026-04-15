@@ -1,0 +1,73 @@
+{
+  "nsw": [
+    {
+      "id": "nsw-2025",
+      "year": 2025,
+      "mainContent": "Uganda National Science Week 2025 brings together scientists, innovators, students, and changemakers under the theme 'Science, Technology and Innovation: Accelerating Uganda's Journey to Middle Income Status'. Join us for a week of exhibitions, competitions, and symposia celebrating homegrown solutions to Uganda's greatest challenges.",
+      "cover": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/7e90gBu4pas?autoplay=1&mute=1&loop=1&playlist=7e90gBu4pas&controls=1&rel=0&modestbranding=1"
+      },
+      "location": "Kololo Independence Grounds, Kampala",
+      "startDate": "2025-06-23",
+      "endDate": "2025-06-29",
+      "callForApplications": true,
+      "createdAt": "2025-01-10T08:00:00Z",
+      "updatedAt": "2025-04-10T14:00:00Z"
+    },
+    {
+      "id": "nsw-2024",
+      "year": 2024,
+      "mainContent": "Uganda National Science Week 2024 was held under the theme 'Harnessing Science and Technology for Socio-Economic Transformation'. The event attracted over 20,000 attendees from 47 districts across Uganda.",
+      "cover": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80"
+      },
+      "location": "Kampala, Uganda",
+      "startDate": "2024-06-24",
+      "endDate": "2024-06-30",
+      "callForApplications": false,
+      "createdAt": "2024-01-12T08:00:00Z",
+      "updatedAt": "2024-07-01T09:00:00Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-001",
+      "slug": "national-science-fair-2025",
+      "nsw_id": "nsw-2025",
+      "title": "National Science & Innovation Fair",
+      "subtitle": "Showcasing Uganda's brightest young innovators",
+      "tags": ["competition", "innovation", "students"],
+      "mainContent": "The flagship event of UNSW, bringing together student innovators from all 47 districts to present solutions to real-world problems.",
+      "images": [
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+        "https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?w=800&q=80"
+      ],
+      "cover": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&q=80"
+      },
+      "venue": "Main Exhibition Hall, Kololo",
+      "createdAt": "2025-02-01T08:00:00Z",
+      "updatedAt": "2025-04-01T08:00:00Z"
+    },
+    {
+      "id": "evt-002",
+      "slug": "ministerial-symposium-2025",
+      "nsw_id": "nsw-2025",
+      "title": "Ministerial Science Policy Symposium",
+      "subtitle": "High-level dialogue on Uganda's science agenda",
+      "tags": ["policy", "symposium", "government"],
+      "mainContent": "Bringing together ministers, technocrats, and research leaders to shape Uganda's national science and technology policy framework.",
+      "images": [],
+      "cover": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80"
+      },
+      "venue": "Speke Resort, Munyonyo",
+      "createdAt": "2025-02-05T08:00:00Z",
+      "updatedAt": "2025-04-01T08:00:00Z"
+    }
+  ]
+}
